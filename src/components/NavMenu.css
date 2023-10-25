@@ -1,0 +1,19 @@
+.nav-menu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dce0f3;
+}
+
+.nav-menu ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav-menu ul li a{
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+
+}

@@ -1,0 +1,63 @@
+.menu{
+    max-width: 13rem;
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    position: relative;
+    margin-right: 3.125vw; /* Equivalente a 50px considerando a largura de 1600px como base */
+}
+
+.menu .button{
+    width: 100%;
+    background-color: #dce0f3;
+    border: none;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    margin-bottom: 1.042vw; /* Equivalente a 10px considerando a largura de 1600px como base */
+    border-radius: 1.042vw; /* Equivalente a 10px considerando a largura de 1600px como base */
+    font-size: 1rem;
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.menu .button div{
+    margin-left: 1.25vw; /* Equivalente a 20px considerando a largura de 1600px como base */
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: column;
+    
+    position: absolute;
+    gap: 1.042vw; /* Equivalente a 10px considerando a largura de 1600px como base */
+    background-color: #dce0f3;
+}
+
+.menu li{
+    display: none;
+    cursor: pointer;
+}
+
+.menu ul, .menu li{
+    list-style: none;
+    margin: 0;
+    padding: 0.55vw; /* Equivalente a 10px considerando a largura de 1600px como base */
+}
+
+.menu a{
+    color: red;
+    transition: 0.9s;
+}
+
+.menu li:hover{
+    color: red;
+    transition: 0.9s;
+}
+
+.menu .button path{
+    fill: rgb(229, 23, 23);
+}
