@@ -175,6 +175,15 @@
     padding-top: 4px;
 }
 
+@media (max-width:996px) {
+    .search-box:hover > .search-input{
+        width: 11.4rem;
+    }
+    .search-input:focus{
+        width: 11.4rem;
+    }
+}
+
 @media (max-width:935px) {
     .navbar{
         padding: 0.5rem 1.25rem;
@@ -237,6 +246,7 @@
     .search-box{
         height: 55px;
         padding: 10px;
+        margin-right: 20px;
         transition: 0.7s ease;
     }
     .search-input{
@@ -252,24 +262,44 @@
         margin: 0px 8px;
     }
     .cart-badge {
-        margin-top: 3px;
-        right: 7px;
+        margin-top: 8px;
+        right: 9px;
     }
     .cart-wrapper .cart{
-        margin-top: 5px;
+        margin-top: 9px;
     }
 }
 
 
 @media (max-width: 732px) {
-    #header{
-        padding: 10px 30px;
-    }
     h1{
         font-size: 38px;
     }
     h2{
         font-size: 32px;
+    }
+    .search-box{
+        height: 40px;
+        padding: 5px;
+        margin-top: 5px;
+        transition: 0.7s ease;
+    }
+    .search-input{
+        width: 0px;
+        font-size:14px;
+    }
+    .search-box .search-btn{
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+    }
+    .search-box:hover > .search-input{
+        width: 10.2rem;
+        margin: 0px 8px;
+    }
+    .search-input:focus{
+        width: 10.2rem;
+        margin: 0px 8px;
     }
 }
 
