@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import './Header.css'
-import logo from '/src/assets/img/logo.png'
 
 function Header() {
     const [isClicked, setIdClicked] = useState(false);
@@ -16,7 +15,7 @@ function Header() {
 
     return (
         <nav className="navbar">
-            <a href="#"> <img src={logo} className="Logo" alt="Logo"/></a>
+            <a href="#"> <img src="public/img/logo.png" className="Logo" alt="Logo"/></a>
             <div className='container'>
                 
                 <div>
