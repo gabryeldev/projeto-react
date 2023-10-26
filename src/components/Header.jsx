@@ -15,7 +15,7 @@ function Header() {
 
     return (
         <nav className="navbar">
-            <a href="#"> <img src="src/assets/img/logo.png" className="Logo" alt="Logo"/></a>
+            <a href="#"> <img src="/src/assets/img/logo.png" className="Logo" alt="Logo"/></a>
             <div className='container'>
                 
                 <div>
