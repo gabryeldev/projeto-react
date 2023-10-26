@@ -10,6 +10,7 @@ function NavMenu () {
                 <li><a href="#">Lançamentos</a></li>
                 <li><a href="#">Outlet</a></li>
             </ul>
+            
         </nav>
     )
 }
