@@ -11,12 +11,13 @@ function Header() {
     return (
         <nav className="navbar">
             <a href="#"> <img src="src/assets/img/logo.png" className="Logo" alt="Logo"/></a>
+            
             <div>
                 <ul className={isClicked ? 'active' : ''}>
                     <li>
-                        <div className="form">
-                            <input type="text" placeholder="Buscar produtos"/>
-                            <button className="normal"><i className="fa fa-search"></i></button>
+                        <div className="search-box">
+                            <input type="text" placeholder="Search anything" className="search-input"/>
+                            <i className="fas fa-search search-btn"></i>
                         </div>
                     </li>
                     <li><a className="active" href="#">Insira seu <br/> CEP </a></li>

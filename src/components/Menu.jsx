@@ -54,7 +54,9 @@ function Menu( props ) {
     }
 
     const searchIconStyle = {
-        display: displayList ? "block" : "none"
+        display: displayList ? "block" : "none",
+        padding: 4,
+        marginTop: 5
     };
 
     return (
