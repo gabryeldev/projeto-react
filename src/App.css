@@ -74,7 +74,7 @@ button.white {
 
 body {
   width: 100%;
-  background-color: black;
+  background-color: white;
   overflow: hidden;
 }
 
@@ -84,4 +84,10 @@ body {
   position: absolute;
   top: 0;
   justify-content: space-between;
+}
+
+.produtos-destaque h3{
+  text-align: center;
+  color: black;
+  padding: 20px 0 10px 0;
 }

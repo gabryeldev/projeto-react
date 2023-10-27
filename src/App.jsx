@@ -14,11 +14,14 @@ function App() {
                             '/img/banner/b2.jpg',
                             '/img/banner/b4.jpg',
                             '/img/banner/b7.jpg']}/>
-      <ProductSlider products={['/img/products/f1.jpg',
-                              '/img/products/f2.jpg',
-                              '/img/products/f3.jpg',
-                              '/img/products/f4.jpg',
-                              '/img/products/f5.jpg']}/>
+      <div className='produtos-destaque'>
+        <h3>Produtos em Destaque</h3>
+        <ProductSlider products={['/img/products/f1.jpg',
+                                '/img/products/f2.jpg',
+                                '/img/products/f3.jpg',
+                                '/img/products/f4.jpg',
+                                '/img/products/f5.jpg']}/>
+      </div>
     </div>
   )
 }

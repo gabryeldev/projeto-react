@@ -4,7 +4,7 @@ import './BannerSlider.css'
 
 function BannerSlider( parametros ){
     const settings = {
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 3000,
         slidesToShow: 1,
