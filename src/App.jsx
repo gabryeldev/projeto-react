@@ -10,20 +10,18 @@ function App() {
     <div className="App">
       <Header/>
       <NavMenu/>
-      <div className='secao'>
-        <BannerSlider slides={['/img/banner/b1.jpg',
-                              '/img/banner/b2.jpg',
-                              '/img/banner/b4.jpg',
-                              '/img/banner/b7.jpg']}/>
-        <ProductSlider slides={['/img/banner/b1.jpg',
-                              '/img/banner/b2.jpg',
-                              '/img/banner/b4.jpg',
-                              '/img/banner/b7.jpg',
-                              '/img/banner/b1.jpg',
-                              '/img/banner/b2.jpg',
-                              '/img/banner/b4.jpg',
-                              '/img/banner/b7.jpg']}/>
-      </div>
+      <BannerSlider slides={['/img/banner/b1.jpg',
+                            '/img/banner/b2.jpg',
+                            '/img/banner/b4.jpg',
+                            '/img/banner/b7.jpg']}/>
+      <ProductSlider slides={['/img/banner/b1.jpg',
+                            '/img/banner/b2.jpg',
+                            '/img/banner/b4.jpg',
+                            '/img/banner/b7.jpg',
+                            '/img/banner/b1.jpg',
+                            '/img/banner/b2.jpg',
+                            '/img/banner/b4.jpg',
+                            '/img/banner/b7.jpg']}/>
     </div>
   )
 }

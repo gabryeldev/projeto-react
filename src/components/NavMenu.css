@@ -4,6 +4,8 @@
     justify-content: center;
     align-items: center;
     background-color: #b7beda;
+    position: relative;
+    z-index: 500;
 }
 
 .nav-menu .opcoes{
