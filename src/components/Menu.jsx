@@ -4,7 +4,7 @@ import {motion} from 'framer-motion'
 import { useState } from 'react';
 import PropTypes from 'prop-types';
 
-const listVariants = {
+const animacaoLista = {
     open: {
         clipPath: "inset(0% 0% 0% round 10px)",
         transition: {
@@ -25,7 +25,7 @@ const listVariants = {
     }
 }
 
-const itemVariants = {
+const animacaoItemLista = {
     open: {
         opacity: 1,
         y: 0,
@@ -44,17 +44,17 @@ const itemVariants = {
     }
 }
 
-function Menu( props ) {
-    const [isOpen, setIsOpen] = useState(false);
-    const [displayList, setDisplayList] = useState(false);
+function Menu( parametros ) {
+    const [subMenuAberto, setSubMenuAberto] = useState(false);
+    const [displaySubMenu, setDisplaySubMenu] = useState(false);
     
     function cliqueBotao () {
-        setIsOpen(!isOpen)
-        setDisplayList(!displayList)
+        setSubMenuAberto(!subMenuAberto);
+        setDisplaySubMenu(!displaySubMenu);
     }
 
-    const searchIconStyle = {
-        display: displayList ? "block" : "none",
+    const mostrarOcultarMenu = {
+        display: displaySubMenu ? "block" : "none",
         padding: 4,
         marginTop: 5
     };
@@ -62,7 +62,7 @@ function Menu( props ) {
     return (
         <motion.div 
             initial={false}
-            animate={isOpen ? 'open' : 'closed'}
+            animate={subMenuAberto ? 'open' : 'closed'}
             className="menu"
         >
             <motion.div
@@ -70,10 +70,10 @@ function Menu( props ) {
                 whileTap={{ scale: 1.03}}
                 onClick={cliqueBotao}
             >
-                {props.texto}
+                {parametros.texto}
                 <motion.div
                     animate={{
-                        rotate: isOpen ? 180 : 0,
+                        rotate: subMenuAberto ? 180 : 0,
                         transition: { duration: 0.2 }
                     }}
                 >
@@ -87,13 +87,12 @@ function Menu( props ) {
                 </motion.div>
             </motion.div>
             <motion.ul
-                style={searchIconStyle}
-                variants={listVariants}
-
+                style={mostrarOcultarMenu}
+                variants={animacaoLista}
             >
-                {props.opcoes.map((opcao, index) => {
+                {parametros.opcoes.map((opcao, index) => {
                     return (
-                        <motion.li key={index} variants={itemVariants} style={searchIconStyle}>{opcao}</motion.li>
+                        <motion.li key={index} variants={animacaoItemLista} style={mostrarOcultarMenu}>{opcao}</motion.li>
                     );
                 })}
             </motion.ul>

@@ -22,11 +22,6 @@
   margin-right: 30px;
 }
 
-
-@media (max-width:935px) {
-    
-}
-
 @media (max-width: 600px) {
   .nav-menu .opcoes{
     display: none;

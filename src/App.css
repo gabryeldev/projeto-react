@@ -74,7 +74,8 @@ button.white {
 
 body {
   width: 100%;
-  background-color: #fff;
+  background-color: black;
+  overflow: hidden;
 }
 
 .App{

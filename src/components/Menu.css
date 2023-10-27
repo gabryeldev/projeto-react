@@ -5,7 +5,7 @@
     font-weight: 600;
     color: #1a1a1a;
     position: relative;
-    margin-right: 3.125vw; /* Equivalente a 50px considerando a largura de 1600px como base */
+    margin-right: 3.125vw;
 }
 
 .menu .button{
@@ -17,15 +17,15 @@
     align-items: center;
     border: none;
     margin-top: 1.042vw;
-    margin-bottom: 1.042vw; /* Equivalente a 10px considerando a largura de 1600px como base */
-    border-radius: 1.042vw; /* Equivalente a 10px considerando a largura de 1600px como base */
+    margin-bottom: 1.042vw;
+    border-radius: 1.042vw;
     font-size: 1rem;
     font-weight: 600;
     
 }
 
 .menu .button div{
-    margin-left: 1.25vw; /* Equivalente a 20px considerando a largura de 1600px como base */
+    margin-left: 1.25vw;
 }
 
 .menu ul {
@@ -45,7 +45,7 @@
 
 .menu ul, .menu li{
     list-style: none;
-    padding: 0.55vw; /* Equivalente a 10px considerando a largura de 1600px como base */
+    padding: 0.55vw;
 }
 
 .menu a{

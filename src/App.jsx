@@ -1,7 +1,6 @@
 import './App.css'
+import BannerSlider from './components/BannerSlider';
 import Header from './components/Header'
-// import SubHeader from './components/SubHeader'
-// import Menu from './components/Menu'
 import NavMenu from './components/NavMenu'
 
 function App() {
@@ -9,9 +8,8 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      {/* <SubHeader/> */}
-      {/* <Menu/> */}
       <NavMenu/>
+      <BannerSlider slides={['/img/banner/b1.jpg', '/img/banner/b2.jpg']}/>
     </div>
   )
 }
