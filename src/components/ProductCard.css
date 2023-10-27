@@ -1,0 +1,40 @@
+.product-card{
+    width: 200px;
+    height: 100%;
+    margin: 10px 0 10px 70px;
+    background: #fff;
+    border-radius: 25px;
+}
+
+.product-card .imagem img{
+    width: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+
+.product-card .product-info{
+    padding: 15px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-card .product-info .nome{
+    font-size: 14px;
+    font-weight: 500;
+    color: #161616;
+    margin: 10px 0 10px 0;
+}
+.product-card .product-info .preco{
+    font-size: 14px;
+    font-weight: 500;
+    color: #161616;
+}
+.product-card .product-info svg{
+    color: #ffcb0c;
+    margin-right: 5px;
+}
+.product-card .stars{
+    display: flex;
+}

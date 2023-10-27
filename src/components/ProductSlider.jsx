@@ -1,20 +1,21 @@
 import Slider from "react-slick";
 import PropTypes from 'prop-types';
 import './ProductSlider.css'
+import ProductCard from "./ProductCard";
 
 function ProductSlider( parametros ){
     const settings = {
         dots: true,
         infinite: false,
         speed: 300,
-        slidesToShow: 5,
+        slidesToShow: 4,
         slidesToScroll: 1,
         arrows : false,
         responsive: [
             {
               breakpoint: 1024,
               settings: {
-                slidesToShow: 4,
+                slidesToShow: 3,
                 slidesToScroll: 1,
                 infinite: true,
                 dots: true
@@ -23,14 +24,14 @@ function ProductSlider( parametros ){
             {
               breakpoint: 600,
               settings: {
-                slidesToShow: 3,
+                slidesToShow: 2,
                 slidesToScroll: 1
               }
             },
             {
               breakpoint: 480,
               settings: {
-                slidesToShow: 2,
+                slidesToShow: 1,
                 slidesToScroll: 1
               }
             }
@@ -40,9 +41,12 @@ function ProductSlider( parametros ){
     return (
         <div className="product-slider">
             <Slider {...settings} className="container">
-                {parametros.slides.map((url, index) => {
+                {parametros.products.map((url, index) => {
                     return(
-                        <img key={index} src={url} alt="" />
+                        <ProductCard key={index} 
+                                    url={url} 
+                                    nome="Camisa Nike Brasil I 2022/23 Torcedor Pro Masculina"
+                                    preco="R$ 70,99"/>
                     )
                 })}
             </Slider>
@@ -51,7 +55,7 @@ function ProductSlider( parametros ){
 }
 
 ProductSlider.propTypes = {
-    urls: PropTypes.array
+  products: PropTypes.array
 };
 
 export default ProductSlider
