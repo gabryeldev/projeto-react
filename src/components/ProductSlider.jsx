@@ -11,9 +11,11 @@ function ProductSlider( parametros ){
         slidesToShow: 5,
         slidesToScroll: 1,
         arrows : false,
+        autoplay: true,
+        autoplaySpeed: 15000,
         responsive: [
             {
-              breakpoint: 1024,
+              breakpoint: 1035,
               settings: {
                 slidesToShow: 4,
                 slidesToScroll: 1,
@@ -22,7 +24,16 @@ function ProductSlider( parametros ){
               }
             },
             {
-              breakpoint: 600,
+              breakpoint: 830,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                infinite: false,
+                dots: true
+              }
+            },
+            {
+              breakpoint: 624,
               settings: {
                 slidesToShow: 2,
                 slidesToScroll: 1

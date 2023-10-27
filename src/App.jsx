@@ -20,8 +20,17 @@ function App() {
                                 '/img/products/f2.jpg',
                                 '/img/products/f3.jpg',
                                 '/img/products/f4.jpg',
-                                '/img/products/f5.jpg']}/>
+                                '/img/products/f5.jpg',
+                                '/img/products/1.jpg',
+                                '/img/products/2.jpg',
+                                '/img/products/3.jpg',
+                                '/img/products/4.jpg',
+                                '/img/products/5.jpg']}/>
       </div>
+      <BannerSlider slides={['/img/banner/b7.jpg',
+                            '/img/banner/b4.jpg',
+                            '/img/banner/b2.jpg',
+                            '/img/banner/b1.jpg']}/>
     </div>
   )
 }
