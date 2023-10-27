@@ -1,7 +1,7 @@
 .product-card{
     width: 200px;
     height: 100%;
-    margin: 10px 0 10px 70px;
+    margin: 10px 0 10px 0px;
     background: #fff;
     border-radius: 25px;
 }
@@ -37,4 +37,34 @@
 }
 .product-card .stars{
     display: flex;
+}
+
+@media (max-width:996px) {
+}
+
+@media (max-width:935px) {
+}
+
+
+@media (max-width: 732px) {
+}
+
+@media (max-width: 442px) {
+    .product-card{
+        width: 175px;
+        height: 100%;
+    }
+
+    .product-card .product-info{
+        padding: 10px;
+    }
+    
+    .product-card .product-info .nome{
+        font-size: 13px;
+        font-weight: 500;
+        margin: 10px 0 7px 0;
+    }
+    .product-card .product-info svg{
+        width: 15px;
+    }
 }

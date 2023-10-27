@@ -8,16 +8,16 @@ function ProductSlider( parametros ){
         dots: true,
         infinite: false,
         speed: 300,
-        slidesToShow: 4,
+        slidesToShow: 5,
         slidesToScroll: 1,
         arrows : false,
         responsive: [
             {
               breakpoint: 1024,
               settings: {
-                slidesToShow: 3,
+                slidesToShow: 4,
                 slidesToScroll: 1,
-                infinite: true,
+                infinite: false,
                 dots: true
               }
             },
@@ -31,8 +31,8 @@ function ProductSlider( parametros ){
             {
               breakpoint: 480,
               settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
+                slidesToShow: 2,
+                slidesToScroll: 2
               }
             }
         ]
@@ -44,6 +44,7 @@ function ProductSlider( parametros ){
                 {parametros.products.map((url, index) => {
                     return(
                         <ProductCard key={index} 
+                                    className="card"
                                     url={url} 
                                     nome="Camisa Nike Brasil I 2022/23 Torcedor Pro Masculina"
                                     preco="R$ 70,99"/>
