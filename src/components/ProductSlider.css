@@ -1,0 +1,10 @@
+
+.product-slider .container{
+    background-color: green;
+    
+}
+
+.product-slider .container img{
+    width: 100px;
+    height: 170px;
+}
