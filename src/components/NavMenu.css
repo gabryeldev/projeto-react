@@ -9,14 +9,15 @@
 }
 
 .nav-menu .opcoes{
-    display: flex;
-    list-style: none;
+  display: flex;
+  list-style: none;
 }
 
 .nav-menu .opcoes li a{
   color: black;
   font-size: 1rem;
   font-weight: 600;
+  text-decoration: none;
 
 }
 

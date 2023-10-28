@@ -1,0 +1,21 @@
+.card-categoria {
+    width: fit-content;
+    display: flex;
+    margin-right: 15px;
+    flex-direction: column;
+    background-color: black;
+    position: relative;
+    align-items: center;
+    text-align: center; 
+    overflow: hidden;
+}
+.card-categoria a{
+    position: absolute;
+    text-decoration: none;
+    width: 100%;
+    bottom: 30px;
+    color: black;
+    font-weight: 500;
+    padding: 10px;
+    background-color: #e3e6f3b0;
+}
