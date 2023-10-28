@@ -1,0 +1,19 @@
+
+.destaques-slider .container{
+    width: 100%;
+}
+
+#root > div > div.destaques-slider > div > div > div{
+    position: relative;
+    display: flex !important;
+    align-items: center !important;
+    margin: auto !important;
+    
+}
+#root > div > div.destaques-slider > div > div > div img{
+    position: relative;
+    display: flex !important;
+    align-items: center !important;
+    margin: auto !important;
+    
+}

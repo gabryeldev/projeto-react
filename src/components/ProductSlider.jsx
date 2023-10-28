@@ -50,19 +50,18 @@ function ProductSlider( parametros ){
     }
 
     return (
-        <div className="product-slider">
-            <Slider {...settings} className="container">
-                {parametros.products.map((url, index) => {
-                    return(
-                        <ProductCard key={index} 
-                                    className="card"
-                                    url={url} 
-                                    nome="Camisa Nike Brasil I 2022/23 Torcedor Pro Masculina"
-                                    preco="R$ 70,99"/>
-                    )
-                })}
-            </Slider>
-        </div>
+      <div className="product-slider">
+          <Slider {...settings} className="container">
+              {parametros.products.map((url, index) => {
+                  return(
+                      <ProductCard key={index} 
+                                  url={url} 
+                                  nome="Camisa Nike Brasil I 2022/23 Torcedor Pro Masculina"
+                                  preco="R$ 70,99"/>
+                  )
+              })}
+          </Slider>
+      </div>
     )   
 }
 
