@@ -4,6 +4,7 @@ import Header from './components/Header'
 import NavMenu from './components/NavMenu'
 import ProductSlider from './components/ProductSlider';
 import CategoriasDestaque from './components/CategoriasDestaque';
+import Newsletter from './components/Newsletter';
 // import PromoSlider from './components/PromoSlider';
 
 function App() {
@@ -35,7 +36,7 @@ function App() {
                                 '/img/products/4.jpg',
                                 '/img/products/5.jpg']}/>
       </div>
-      
+      <Newsletter/>
     </div>
     
   )

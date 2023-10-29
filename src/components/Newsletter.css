@@ -1,0 +1,33 @@
+.newsletter{
+    background-color: hsl(228, 28%, 43%);
+    padding: 2rem;
+    font-weight: 200;
+}
+.newsletter .email{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.newsletter .email input{
+    outline: none;
+    border: none;
+    width: 70%;
+    font-size:14px;
+    transition: 0.7s ease;
+    border-radius: 1rem;
+    background-color: #fff;
+    padding-left: 1rem;
+    font-weight: 600;
+}
+
+.newsletter .email .btn-enviar{
+    transition: 0.7s ease;
+    border-radius: 1rem;
+    padding: 10px;
+    color:  rgba(0, 0, 0, 0.55);
+    font-weight: 700;
+    background-color: #fff;
+    border: none;
+}
