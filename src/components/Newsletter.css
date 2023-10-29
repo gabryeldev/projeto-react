@@ -1,6 +1,7 @@
 .newsletter{
     background-color: hsl(228, 28%, 43%);
     padding: 2rem;
+    margin-top: 20px;
     font-weight: 200;
 }
 .newsletter .email{
@@ -17,7 +18,7 @@
     font-size:14px;
     transition: 0.7s ease;
     border-radius: 1rem;
-    background-color: #fff;
+    background-color: #E3E6F3;
     padding-left: 1rem;
     font-weight: 600;
 }
@@ -28,6 +29,6 @@
     padding: 10px;
     color:  rgba(0, 0, 0, 0.55);
     font-weight: 700;
-    background-color: #fff;
+    background-color: #E3E6F3;
     border: none;
 }
