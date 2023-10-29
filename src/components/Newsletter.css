@@ -12,13 +12,17 @@
 
 .newsletter .email input{
     background: transparent;
-    color: #fff;
+    color: #E3E6F3;
     outline: none;
-    
+    width: 100%;
     line-height:30px;
     font-size:14px;
     border-radius: 0.4rem;
     padding-left: 0.5rem;
+}
+
+.newsletter .email input::placeholder {
+    color: #E3E6F3;
 }
 
 .newsletter .email .btn-enviar{
@@ -41,7 +45,7 @@
     display: flex;
     background: transparent;
     padding: 0.4rem;
-    border-radius: 15px;
+    border-radius: 0.4rem;
     transition: 0.4s ease;
     justify-content: space-between;
     border: 1px solid #b7beda;

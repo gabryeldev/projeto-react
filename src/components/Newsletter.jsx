@@ -15,7 +15,7 @@ function Newsletter() {
                 </button> */}
                 
                 <div className="email-box">
-                    <input type="text" placeholder="Buscar" className="email-input"/>
+                    <input type="text" placeholder="Email" className="email-input"/>
                     <svg
                      width={30}
                      height={30}
