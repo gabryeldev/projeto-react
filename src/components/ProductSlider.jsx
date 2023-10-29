@@ -5,11 +5,11 @@ import ProductCard from "./ProductCard";
 
 function ProductSlider( parametros ){
     const settings = {
-        dots: true,
+        dots: false,
         infinite: false,
         speed: 300,
         slidesToShow: 5,
-        slidesToScroll: 1,
+        slidesToScroll: 3,
         arrows : false,
         autoplay: true,
         autoplaySpeed: 15000,
@@ -18,25 +18,21 @@ function ProductSlider( parametros ){
               breakpoint: 1035,
               settings: {
                 slidesToShow: 4,
-                slidesToScroll: 1,
-                infinite: false,
-                dots: true
+                slidesToScroll: 3
               }
             },
             {
               breakpoint: 830,
               settings: {
                 slidesToShow: 3,
-                slidesToScroll: 1,
-                infinite: false,
-                dots: true
+                slidesToScroll: 2
               }
             },
             {
               breakpoint: 624,
               settings: {
                 slidesToShow: 2,
-                slidesToScroll: 1
+                slidesToScroll: 2
               }
             },
             {
