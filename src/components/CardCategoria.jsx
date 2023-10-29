@@ -1,23 +1,23 @@
-import './DestaqueCard.css'
+import './CardCategoria.css'
+import { useState, useEffect } from 'react'
 import PropTypes from 'prop-types';
 import {motion} from 'framer-motion'
-import { useState, useEffect } from 'react'
 
-function DestaqueCard( parametros ){
+function CardCategoria( parametros ){
     const [positionText, setPositionText] = useState();
 
     useEffect(() => {
         const interval = setInterval(() => {
           setPositionText((prevPosition) => (prevPosition === 0 ? -300 : 0));
-        }, 2000); 
+        }, parametros.intervalo); 
     
         return () => clearInterval(interval);
-    }, [positionText]);
-    
+    });
+
     return(
-        <div className='card-destaque'
+        <div className='card-categoria'
         >
-            <motion.img whileHover={{ scale: 1.13}}  src={parametros.url}/>
+            <motion.img whileHover={{ scale: 1.13}} src={parametros.url}/>
             <motion.a 
                 initial={{ x: 0 }}
                 animate={{ x: positionText }}
@@ -30,8 +30,9 @@ function DestaqueCard( parametros ){
     )
 }
 
-DestaqueCard.propTypes = {
-    url: PropTypes.string
+CardCategoria.propTypes = {
+    url: PropTypes.string,
+    intervalo: PropTypes.number
 };
 
-export default DestaqueCard
+export default CardCategoria

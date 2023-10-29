@@ -1,0 +1,29 @@
+.categoria-container{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.categoria-destaque {
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.categoria-destaque img{
+    width: 230px;
+    transition: 0.25s;
+}
+
+@media (max-width: 768px) {
+    .categoria-destaque {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .categoria-destaque {
+        flex-direction: column;
+        align-items: center;
+    }
+}

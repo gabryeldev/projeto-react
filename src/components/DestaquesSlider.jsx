@@ -14,7 +14,6 @@ function DestaquesSlider( parametros ){
         slidesToShow: 3,
         slidesToScroll: 1,
         arrows : false,
-        className: '',
         responsive: [
             {
               breakpoint: 1170,
@@ -44,8 +43,8 @@ function DestaquesSlider( parametros ){
             {
               breakpoint: 480,
               settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2
+                slidesToShow: 1,
+                slidesToScroll: 1
               }
             }
         ]
