@@ -7,9 +7,10 @@
     background-color: black;
     position: relative;
     align-items: center;
-    text-align: center; 
+    text-align: center;
     overflow: hidden;
 }
+
 .card-categoria a{
     position: absolute;
     text-decoration: none;
@@ -19,4 +20,20 @@
     font-weight: 500;
     padding: 10px;
     background-color: #e3e6f3b0;
+}
+
+@media (max-width: 890px) {
+    .card-categoria a{
+        bottom: 15px;
+        color: black;
+        font-weight: 500;
+        font-size: 12px;
+        padding: 2px;
+    }
+    .card-categoria img{
+        width: 150px;
+    }
+}
+
+@media (max-width: 480px) {
 }

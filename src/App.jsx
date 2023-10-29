@@ -1,6 +1,5 @@
 import './App.css'
 import BannerSlider from './components/BannerSlider';
-import DestaquesSlider from './components/DestaquesSlider';
 import Header from './components/Header'
 import NavMenu from './components/NavMenu'
 import ProductSlider from './components/ProductSlider';
