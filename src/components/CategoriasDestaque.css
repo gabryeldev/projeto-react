@@ -8,6 +8,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    overflow: hidden;
 }
 .categoria-destaque img{
     width: 230px;

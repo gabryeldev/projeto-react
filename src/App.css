@@ -39,9 +39,11 @@ button.white {
   position: absolute;
   top: 0;
   justify-content: space-between;
+  
 }
 .produtos-destaque{
   margin-bottom: 30px;
+  overflow: hidden;
 }
 .produtos-destaque h3{
   text-align: center;
