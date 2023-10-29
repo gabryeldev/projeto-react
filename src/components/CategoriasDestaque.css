@@ -10,7 +10,6 @@
     flex-wrap: wrap;
     justify-content: center;
     overflow: hidden;
-    background-color: transparent;
 }
 .categoria-destaque img{
     width: 230px;
