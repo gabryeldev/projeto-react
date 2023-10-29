@@ -186,6 +186,10 @@
         margin-bottom: 25px;
     }
 
+    .navbar li a{
+        font-size: 0.81rem;
+    }
+
     .navbar .cart-wrapper{
         margin-top: 0;
         padding: 0;
