@@ -10,7 +10,7 @@ function CategoriasDestaque( parametros ){
             <div className='categoria-destaque'>
                 {parametros.urls.map((url, index) => {
                     return (
-                        <CardCategoria key={index} url={url} intervalo={interval}/>
+                        <CardCategoria className="card-destaque" key={index} url={url} intervalo={interval}/>
                     );
                 })}
             </div>

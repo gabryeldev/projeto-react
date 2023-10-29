@@ -1,8 +1,7 @@
 .card-categoria {
     width: fit-content;
     display: flex;
-    margin-right: 15px;
-    margin-bottom: 15px;
+    margin: 0 7px 10px 7px;
     flex-direction: column;
     background-color: black;
     position: relative;
