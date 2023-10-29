@@ -6,29 +6,51 @@
 }
 .newsletter .email{
     color: black;
-    display: flex;
-    justify-content: space-between;
     margin-top: 10px;
+    
 }
 
 .newsletter .email input{
+    background: transparent;
+    color: #fff;
     outline: none;
-    border: none;
-    width: 70%;
+    
+    line-height:30px;
     font-size:14px;
-    transition: 0.7s ease;
-    border-radius: 1rem;
-    background-color: #E3E6F3;
-    padding-left: 1rem;
-    font-weight: 600;
+    border-radius: 0.4rem;
+    padding-left: 0.5rem;
 }
 
 .newsletter .email .btn-enviar{
-    transition: 0.7s ease;
-    border-radius: 1rem;
-    padding: 10px;
+    border-radius: 50%;
+    padding: 0.5rem;
     color:  rgba(0, 0, 0, 0.55);
     font-weight: 700;
-    background-color: #E3E6F3;
+    background-color: transparent;
+}
+
+.newsletter .email path{
+    fill: #b7beda;   
+}
+
+.newsletter .email svg{
+    border-radius: 50%;
+}
+
+.email-box{
+    display: flex;
+    background: transparent;
+    padding: 0.4rem;
+    border-radius: 15px;
+    transition: 0.4s ease;
+    justify-content: space-between;
+    border: 1px solid #b7beda;
+}
+.email-input{
+    color: #fff;
+    outline: none;
     border: none;
+    font-size:14px;
+    transition: 0.7s ease;
+    font-family:sans-serif;
 }
