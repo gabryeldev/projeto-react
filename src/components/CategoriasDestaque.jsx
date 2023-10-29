@@ -1,6 +1,7 @@
 import './CategoriasDestaque.css'
 import PropTypes from 'prop-types';
 import CardCategoria from './CardCategoria';
+import PromoSlider from './PromoSlider';
 
 function CategoriasDestaque( parametros ){
     const interval = 3500;

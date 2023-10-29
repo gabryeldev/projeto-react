@@ -12,15 +12,15 @@
     overflow: hidden;
 }
 .categoria-destaque img{
-    width: 230px;
+    width: 20vw;
     transition: 0.25s;
 }
 
 @media (max-width: 768px) {
-   
+    
 }
 
-@media (max-width: 496px) {
+@media (max-width: 509px) {
     .categoria-destaque :nth-child(3) {
         display: none;
     }
