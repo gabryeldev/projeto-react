@@ -36,6 +36,32 @@ function App() {
                                 '/img/products/4.jpg',
                                 '/img/products/5.jpg']}/>
       </div>
+      <div className='produtos-destaque'>
+        <h3>Mais vendidos</h3>
+        <ProductSlider products={['/img/products/f1.jpg',
+                                '/img/products/f2.jpg',
+                                '/img/products/f3.jpg',
+                                '/img/products/f4.jpg',
+                                '/img/products/f5.jpg',
+                                '/img/products/1.jpg',
+                                '/img/products/2.jpg',
+                                '/img/products/3.jpg',
+                                '/img/products/4.jpg',
+                                '/img/products/5.jpg']}/>
+      </div>
+      <div className='produtos-destaque'>
+        <h3>Blusas em Promoção</h3>
+        <ProductSlider products={['/img/products/f1.jpg',
+                                '/img/products/f2.jpg',
+                                '/img/products/f3.jpg',
+                                '/img/products/f4.jpg',
+                                '/img/products/f5.jpg',
+                                '/img/products/1.jpg',
+                                '/img/products/2.jpg',
+                                '/img/products/3.jpg',
+                                '/img/products/4.jpg',
+                                '/img/products/5.jpg']}/>
+      </div>
       <Newsletter/>
     </div>
     
